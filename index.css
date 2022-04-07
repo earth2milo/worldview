@@ -1,0 +1,88 @@
+body {
+    background-color:#B0E0E6
+  }
+  
+  a {
+    color:#FF6347;
+    text-shadow: 12px 5px #2F4F4F;
+  }
+  
+  a:hover {
+  cursor:pointer;
+  }
+  
+  
+  h1 {
+    font-family: 'Shizuru',cursive;
+    color:#FF6347;
+    text-align: center;
+    text-decoration: inherit;
+    text-shadow: 12px 5px #2F4F4F;
+    font-size:88px;
+  }
+  
+  h2 {
+    font-family: 'Shizuru',cursive;
+    color:#FF6347;
+    text-align: center;
+    text-decoration: inherit;
+    /*text-shadow: 12px 5px #2F4F4F; */
+    font-size:35px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: -30px;
+  
+  
+  }
+  
+  
+  .flex1 {
+  
+  font-size:35px;
+  font-family: 'Shizuru',cursive;
+  color:#FF6347;
+  text-decoration:none;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: -30px;
+  text-align: center;
+  }
+  
+  .flex2 {
+    font-size:35px;
+    font-family: 'Shizuru',cursive;
+    color:#FF6347;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: -30px;
+    text-align: center;
+  }
+  
+  .flex3 {
+    font-size:35px;
+    font-family: 'Shizuru',cursive;
+    color:#FF6347;
+    text-decoration: none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    height: -30px;
+    text-align: center;
+  
+  }
+  .center{
+    display:block;
+    top:-10px;
+    height:0px;
+    margin-top:200px;
+    padding-bottom:-50px
+  }
+  
+  .homegif {
+    top:-50px;
+  }
+  
