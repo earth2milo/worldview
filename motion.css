@@ -1,0 +1,45 @@
+.body {
+    margin-right:-40%;
+}
+
+
+.grid-container {
+    display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  gap:1vh;
+
+
+
+ 
+   
+   
+}
+
+.video-frame {
+    align-self: center;
+    justify-self: center;
+    border-color:aqua;
+    
+    
+    margin-top:10%;
+    
+}
+
+.img{
+width:10%;
+
+}
+
+.back {
+font-family: 'Rubik Puddles', cursive;
+color:white;
+display:flex;
+position:absolute;
+
+background-color: white;
+
+}

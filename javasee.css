@@ -89,3 +89,8 @@
         display:none;
         font-size: 12;
     }
+
+    .flex1 {
+        top:10%;
+        left:50%;
+    }
