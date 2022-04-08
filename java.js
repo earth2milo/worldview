@@ -13,6 +13,7 @@ document.body.appendChild(btn);
 
 
 var text = document.getElementById("wow"); 
+var bioText= document.getElementById("bio");
 btn.addEventListener("mouseover", function() {
 
     btn.style.border = "10px solid black";
@@ -25,16 +26,29 @@ btn.addEventListener("mouseout", function() {
 });
 
 btn.addEventListener("click", function() {
-    wow.style.display="flex";
-    wow.style.position="absolute";
-    wow.style.top="40%";
-    wow.style.right="20%";
-    wow.style.marginLeft="20%";
-    wow.style.marginRight="30%";
-    wow.style.fontFamily ="Rubik Puddles, cursive";
-    wow.style.textShadow ="10px, 5px, #2F4F4F";
-    wow.style.color = "#FF6347";
-    wow.style.fontSize="15px";
+    text.style.display="flex";
+    text.style.position="absolute";
+    text.style.top="40%";
+    text.style.right="20%";
+    text.style.marginLeft="20%";
+    text.style.marginRight="30%";
+    text.style.fontFamily ="Rubik Puddles, cursive";
+    text.style.textShadow ="10px, 5px, #2F4F4F";
+    text.style.color = "#FF6347";
+    text.style.fontSize="15px";
+    
+    bioText.style.display="flex";
+    bioText.style.position="absolute";
+    bioText.style.top="45%";
+    bioText.style.right="20%";
+    bioText.style.marginLeft="20%";
+    bioText.style.marginRight="30%";
+    bioText.style.fontFamily ="Rubik Puddles, cursive";
+    bioText.style.textShadow ="10px, 5px, #2F4F4F";
+    bioText.style.color = "#FF6347";
+    bioText.style.fontSize="15px";
+
+
     
    
 
